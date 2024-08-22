@@ -1,0 +1,60 @@
+
+
+body {
+  background-color: #ffffff; /* Replace with your chosen color */
+  margin: 0;
+  
+  font-family: Arial, sans-serif;
+  color: #333; /* Ensure text color contrasts well with the background */
+}
+
+/* Header Styling */
+.App-header {
+  margin-top: 0; /* Removes top margin */
+  padding-top: 0; 
+  background-color: #282c34; /* Dark background for the header */
+  padding: 20px; /* Add padding for space around the content */
+  color: #ffffff; /* White text color */
+  border-bottom: 4px solid #61dafb; /* Bottom border for a clean separation */
+  font-family: 'Roboto', sans-serif; /* Apply Google Font */
+}
+
+/* Heading Styling */
+.App-header h1 {
+  font-size: 3rem; /* Larger font size for the main heading */
+  font-weight: 700; /* Bold text for emphasis */
+  margin: 0; /* Remove default margin */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow for readability */
+  letter-spacing: 1px; /* Slight letter spacing for better readability */
+  line-height: 1.2; /* Line height to ensure spacing between lines */
+  font-family: 'Lora', serif; /* Apply a different Google Font for a stylish look */
+}
+
+/* Responsive adjustments */
+@media (max-width: 767.98px) {
+  .App-header h1 {
+    font-size: 2.5rem; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Ensure the footer is not fixed to the bottom */
+.footer {
+  background-color: #282c34; /* Dark background color to match the theme */
+  color: #ffffff; /* White text color */
+  padding: 10px 0; /* Padding for spacing */
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-text {
+  margin: 0;
+  font-weight: 500; /* Semi-bold text */
+}
+
+.text-danger {
+  color: #ff0000; /* Red color for the heart icon */
+}
+
+.bi-heart-fill {
+  font-size: 16px; /* Size of the heart icon */
+}

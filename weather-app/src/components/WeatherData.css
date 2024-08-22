@@ -1,0 +1,114 @@
+/* WeatherData.css */
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #f8f9fa; /* Light gray background for better visibility */
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    width: 250px; /* Set a fixed width for the sidebar */
+    min-height: 400px; /* Ensure the sidebar has a minimum height */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add slight shadow for depth */
+  }
+  
+  /* Main Content Styles */
+  .main-content {
+    flex-grow: 1; /* Allows the content to fill the remaining space */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Nav link styles for cities */
+  .nav-pills .nav-link {
+    margin-bottom: 5px;
+    color: #333;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .nav-pills .nav-link:hover {
+    background-color: #052b53;
+    color: white;
+  }
+  
+  .nav-pills .nav-link.active {
+    background-color: #052b53;
+    color: white;
+  }
+  
+  /* Weather details styling */
+  .weather-details {
+    transition: opacity 0.3s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay for contrast */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .text-shadow {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  }
+  
+  h2,
+  h4 {
+    color: #fff;
+  }
+  
+  .weather-info p {
+    font-size: 1.1em;
+    line-height: 1.5;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 991.98px) {
+    .sidebar {
+      width: 100%;
+      min-height: auto;
+      border-right: none;
+      border-bottom: 1px solid #ddd; /* Adjust border for smaller screens */
+    }
+  
+    .main-content {
+      padding-left: 0; /* Reset padding for smaller screens */
+    }
+  }
+  
+
+  /* WeatherData.css */
+
+/* Heading Styles */
+.weather-details h2 {
+    font-size: 2.5rem; /* Larger font size for main heading */
+    color: #ffffff; /* White color for better contrast */
+    font-weight: bold; /* Bold text for emphasis */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Shadow for better readability */
+    margin-bottom: 20px; /* Spacing below the heading */
+  }
+  
+  .weather-details h4 {
+    font-size: 1.5rem; /* Slightly smaller font size for subheading */
+    color: #f8f9fa; /* Light gray color */
+    font-weight: normal; /* Normal font weight */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6); /* Shadow for readability */
+    margin-bottom: 15px; /* Spacing below the subheading */
+  }
+  
+  /* Additional Styling for Weather Info */
+  .weather-info p {
+    font-size: 1.2rem; /* Slightly larger font size for better readability */
+    margin-bottom: 10px; /* Spacing between lines */
+    color: #e0e0e0; /* Light gray color for text */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 767.98px) {
+    .weather-details h2 {
+      font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+  
+    .weather-details h4 {
+      font-size: 1.2rem; /* Adjust font size for smaller screens */
+    }
+  }
+  

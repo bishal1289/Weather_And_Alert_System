@@ -1,0 +1,83 @@
+/* DailySummary.css */
+
+/* Container Styling */
+.daily-summary-container {
+    background-color: #f8f9fa; /* Light background for better contrast */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    padding: 20px; /* Space inside the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Heading Styling */
+  .daily-summary-container h2 {
+    font-size: 2rem; /* Larger font size for the heading */
+    color: #343a40; /* Darker text color for contrast */
+    font-family: 'Roboto', sans-serif; /* Consistent font family */
+    font-weight: bold; /* Bold text for emphasis */
+  }
+  
+  /* Input and Button Container */
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Input Field Styling */
+  .date-input {
+    width: 100%; /* Full width input field */
+    max-width: 300px; /* Maximum width for larger screens */
+    margin-bottom: 10px; /* Space below the input field */
+  }
+  
+  /* Button Styling */
+  .btn-primary {
+    background-color: #052b53; /* Darker blue color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Add padding for button */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Font size */
+    font-family: 'Roboto', sans-serif; /* Consistent font family */
+  }
+  
+  /* Alert Styling */
+  .alert {
+    border-radius: 5px; /* Rounded corners for the alert */
+    padding: 10px; /* Padding inside the alert */
+    font-size: 1rem; /* Font size for the alert text */
+  }
+  
+  /* Table Styling */
+  .table {
+    background-color: #ffffff; /* White background for the table */
+    border-radius: 8px; /* Rounded corners for the table */
+    overflow: hidden; /* Hide any overflow */
+  }
+  
+  /* Table Header Styling */
+  .table thead th {
+    background-color: #052b53; /* Darker blue header background color */
+    color: #ffffff; /* White text color */
+    text-align: center; /* Center-align text */
+  }
+  
+  /* Table Row Styling */
+  .table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Alternate row background color */
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 767.98px) {
+    .daily-summary-container {
+      padding: 15px; /* Adjust padding for smaller screens */
+    }
+  
+    .date-input {
+      max-width: 100%; /* Full width input field on small screens */
+    }
+  
+    .btn-primary {
+      font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+  }
+  

@@ -1,0 +1,118 @@
+.alert-manager {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  
+  .alert-manager-form,
+  .alert-manager-list {
+    flex: 1;
+    margin: 0 10px; /* Adjust margin to space out sections */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .form-container,
+  .alert-list-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #052b53;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .form-container {
+    margin-right: 20px;
+  }
+  
+  .alert-list-container {
+    overflow-y: auto; /* Scroll if content overflows */
+  }
+  
+  .alert-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #052b53;
+    padding: 25px;
+    margin-bottom: 20px;
+    height: 300px; /* Adjust as needed */
+    overflow: auto;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .card-text {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination .btn {
+    margin: 0 5px;
+  }
+  /* General styles for the AlertManagerList component */
+.alert-manager-list {
+    padding: 20px;
+    background-color: #f0f8ff; /* Light background color for the entire component */
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .alert-card {
+    background-color: #ffffff; /* Card background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+    padding: 16px; /* Inner padding */
+    overflow: hidden; /* Hide overflow to maintain rounded corners */
+    height: 100%; /* Ensure cards take full height available */
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 8px;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .btn-secondary {
+    background-color: #007bff; /* Button background color */
+    border-color: #007bff; /* Button border color */
+  }
+  
+  .btn-secondary.active {
+    background-color: #0056b3; /* Active button color */
+    border-color: #0056b3; /* Active button border color */
+  }
+  
+  /* Ensure responsive design */
+  @media (max-width: 768px) {
+    .alert-card {
+      margin: 0; /* Remove margin on smaller screens */
+    }
+  }
+  
